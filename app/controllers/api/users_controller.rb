@@ -22,7 +22,8 @@ class Api::UsersController < ApplicationController
                         endorsements: params[:endorsements],
                         owner: params[:owner],
                         admin: params[:admin],
-                        summary: params[:summary]
+                        summary: params[:summary],
+                        profile_url: params[:profile_url]
                         )
     @user.save
     render 'show.json.jbuilder'
@@ -43,6 +44,7 @@ class Api::UsersController < ApplicationController
     @user.owner = params[:owner] || @user.owner,
     @user.admin = params[:admin] || @user.admin,
     @user.summary = params[:summary] || @user.summary
+    @user.profile_url = params[:profile_url] || @user.profile_url
 
     @user.save
     render 'show.json.jbuilder'

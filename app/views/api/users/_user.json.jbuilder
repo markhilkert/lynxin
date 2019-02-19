@@ -10,3 +10,4 @@ json.endorsements user.endorsements
 json.owner user.owner
 json.admin user.admin
 json.summary user.summary
+json.profile_url user.profile_url
