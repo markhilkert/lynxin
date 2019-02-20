@@ -1,4 +1,4 @@
-User.create(
+Cat.create(
             first_name: "Maximum",
             family_name: "Cross",
             title: "Captain",
@@ -13,7 +13,7 @@ User.create(
             summary: "The best."
             )
 
- User.create(
+ Cat.create(
             first_name: "Garfield",
             family_name: "Arbuckle",
             title: "n/a",
@@ -28,7 +28,7 @@ User.create(
             summary: "The worst."
             )
 
- User.create(
+ Cat.create(
             first_name: "Felix",
             family_name: "The Cat",
             title: "The wonderful, wonderful cat.",
@@ -41,4 +41,33 @@ User.create(
             owner: "The streets.",
             admin: false,
             summary: "Medium"
+            )
+
+ Cat.create(
+            first_name: "Toilet",
+            family_name: "Paper",
+            title: "professor",
+            education: "Water Bowl State University",
+            experience: "see photo",
+            location: "Bowling Green, Ohio",
+            accomplishments: "Can hold breath underwater for 7 minutes",
+            skills: "fitting into tight spaces, not afraid of water.",
+            endorsements: "Plumbers everywhere",
+            owner: "chosen to remain anonymous",
+            admin: false,
+            summary: "look at me!"
+            )
+
+ Cat.create(
+            first_name: "Maddie",
+            family_name: "Tucker",
+            title: "Princess, Baby Girl, Munchkin",
+            education: "Associate’s in Animal Grooming",
+            experience: "Moved from the bed to the chair to the food bowl to the rug to the litter box to the chair to the bed. Repeat.",
+            location: "Chicago, IL",
+            accomplishments: "ruling the house, batting and bending the twist tie to my will",
+            skills: "chewing paper, cardboard, and plastic, waking owner up every 2 hours, cuddling, strong communication skills (meow! purr!)",
+            endorsements: "Everyone who’s ever met me",
+            owner: "Lisa Tucker",
+            summary: "Just. That. Cute."
             )

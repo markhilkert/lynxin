@@ -1,2 +1,3 @@
 class Following < ApplicationRecord
+  
 end
