@@ -19,7 +19,8 @@ class Api::CatsController < ApplicationController
                         owner: params[:owner],
                         admin: params[:admin],
                         summary: params[:summary],
-                        profile_url: params[:profile_url]
+                        profile_url: params[:profile_url],
+                        image: params[:image]
                         )
     @cat.save
     render 'show.json.jbuilder'

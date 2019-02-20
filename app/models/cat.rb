@@ -5,4 +5,5 @@ class Cat < ApplicationRecord
   has_many :followers, through: :follower_followings
   has_many :followees, through: :followee_followings
 
+  has_one_attached :image
 end
