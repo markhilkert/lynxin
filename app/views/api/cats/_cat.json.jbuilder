@@ -8,6 +8,5 @@ json.accomplishments cat.accomplishments
 json.skills cat.skills
 json.endorsements cat.endorsements
 json.owner cat.owner
-json.admin cat.admin
 json.summary cat.summary
 json.profile_url cat.profile_url

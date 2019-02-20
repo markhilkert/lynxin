@@ -10,9 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-
-ActiveRecord::Schema.define(version: 2019_02_20_205320) do
-
+ActiveRecord::Schema.define(version: 2019_02_20_211444) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -24,14 +22,14 @@ ActiveRecord::Schema.define(version: 2019_02_20_205320) do
     t.string "education"
     t.text "experience"
     t.string "location"
-    t.text "accomplishment"
-    t.text "skill"
-    t.text "endorsement"
     t.string "owner"
     t.text "summary"
     t.string "profile_url"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.text "accomplishments"
+    t.text "endorsements"
+    t.text "skills"
   end
 
   create_table "followings", force: :cascade do |t|
