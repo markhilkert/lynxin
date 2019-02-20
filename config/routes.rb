@@ -3,6 +3,7 @@ Rails.application.routes.draw do
     get "/users" => 'users#index'
     post "/users" => 'users#create'
 
+    post "/sessions" => 'sessions#create'
 
     get "/cats" => 'cats#index'
     get "/cats/:id" => 'cats#show'
