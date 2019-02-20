@@ -1,3 +1,4 @@
+json.id cat.id
 json.first_name cat.first_name
 json.family_name cat.family_name
 json.title cat.title

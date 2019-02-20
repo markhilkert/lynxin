@@ -67,3 +67,34 @@ Cat.create(
             owner: "Lisa Tucker",
             summary: "Just. That. Cute."
             )
+
+ Following.create(
+                  follower_id: 2,
+                  followee_id: 3
+                  )
+
+Following.create(
+                  follower_id: 4,
+                  followee_id: 1
+                  )
+
+ Following.create(
+                  follower_id: 4,
+                  followee_id: 2
+                  )
+
+ Following.create(
+                  follower_id: 4,
+                  followee_id: 3
+                  )
+
+ Following.create(
+                  follower_id: 4,
+                  followee_id: 5
+                  )
+
+ Following.create(
+                  follower_id: 5,
+                  followee_id: 4
+                  )
+ 
