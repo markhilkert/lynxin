@@ -9,7 +9,6 @@ Cat.create(
             skills: "batting, eating, sleeping, mousing",
             endorsements: "Many",
             owner: "Dylan Cross",
-            admin: false,
             summary: "The best."
             )
 
@@ -24,7 +23,6 @@ Cat.create(
             skills: "eating, sleeping, kicking Odie, despising Monday",
             endorsements: "Few",
             owner: "Jon Arbuckle",
-            admin: false,
             summary: "The worst."
             )
 
@@ -39,7 +37,6 @@ Cat.create(
             skills: "Tricks",
             endorsements: "Many octogenarians",
             owner: "The streets.",
-            admin: false,
             summary: "Medium"
             )
 
@@ -54,7 +51,6 @@ Cat.create(
             skills: "fitting into tight spaces, not afraid of water.",
             endorsements: "Plumbers everywhere",
             owner: "chosen to remain anonymous",
-            admin: false,
             summary: "look at me!"
             )
 
@@ -71,16 +67,3 @@ Cat.create(
             owner: "Lisa Tucker",
             summary: "Just. That. Cute."
             )
-
- remove_column :users, :first_name, :string
- remove_column :users, :family_name, :string
- remove_column :users, :title, :string
- remove_column :users, :education, :string
- remove_column :users, :experience, :string
- remove_column :users, :location, :string
- remove_column :users, :accomplishments, :text
- remove_column :users, :skills, :text
- remove_column :users, :endorsements, :text
- remove_column :users, :owner, :string
- remove_column :users, :summary, :text
- remove_column :users, :profile_url, :string

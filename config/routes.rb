@@ -1,12 +1,15 @@
 Rails.application.routes.draw do
-
   namespace :api do
     get "/users" => 'users#index'
-    get "/users/:id" => 'users#show'
-    get '/users/new' => 'users#new'
     post "/users" => 'users#create'
+
+
+    get "/cats" => 'cats#index'
+    get "/cats/:id" => 'cats#show'
+    get '/cats/new' => 'cats#new'
+    post "/cats" => 'cats#create'
     # post '/sessions' => 'sessions#create'
-    patch "/users/:id" => 'users#update'
-    delete "/users/:id" => 'users#destroy'
+    patch "/cats/:id" => 'cats#update'
+    delete "/cats/:id" => 'cats#destroy'
   end
 end
