@@ -1,0 +1,1 @@
+json.partial! @cat, partial: "cat", as: :cat
