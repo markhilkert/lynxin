@@ -10,10 +10,27 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2019_02_19_230111) do
+ActiveRecord::Schema.define(version: 2019_02_20_205320) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
+
+  create_table "cats", force: :cascade do |t|
+    t.string "first_name"
+    t.string "family_name"
+    t.string "title"
+    t.string "education"
+    t.text "experience"
+    t.string "location"
+    t.text "accomplishment"
+    t.text "skill"
+    t.text "endorsement"
+    t.string "owner"
+    t.text "summary"
+    t.string "profile_url"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
 
   create_table "followings", force: :cascade do |t|
     t.integer "follower_id"
@@ -24,21 +41,11 @@ ActiveRecord::Schema.define(version: 2019_02_19_230111) do
   end
 
   create_table "users", force: :cascade do |t|
-    t.string "first_name"
-    t.string "family_name"
-    t.string "title"
-    t.string "education"
-    t.text "experience"
-    t.string "location"
-    t.text "accomplishments"
-    t.text "skills"
-    t.text "endorsements"
-    t.string "owner"
     t.boolean "admin", default: false
-    t.text "summary"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
-    t.string "profile_url"
+    t.string "email"
+    t.string "password_digest"
   end
 
 end
