@@ -1,1 +1,1 @@
-json.array! @users, partial: "user", as: :user  
+json.email cat.email
