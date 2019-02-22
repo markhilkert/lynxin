@@ -21,8 +21,12 @@ class Api::CatsController < ApplicationController
                         profile_url: params[:profile_url],
                         image: params[:image]
                         )
-    @cat.save
-    render 'show.json.jbuilder'
+    
+    if @cat.save
+      render 'show.json.jbuilder'
+    else
+      render json: {errors: @cat.errors.full_messages}, status: :unprocessable_entity
+    end
   end
 
   def show
@@ -46,8 +50,11 @@ class Api::CatsController < ApplicationController
     @cat.summary = params[:summary] || @cat.summary
     @cat.profile_url = params[:profile_url] || @cat.profile_url
 
-    @cat.save
-    render 'show.json.jbuilder'
+    if @cat.save
+      render 'show.json.jbuilder'
+    else
+      render json: {errors: @cat.errors.full_messages}, status: :unprocessable_entity
+    end
   end
 
   def destroy
