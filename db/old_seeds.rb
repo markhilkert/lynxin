@@ -1,4 +1,10 @@
-Cat.create(
+User.create!(
+            email: "maximum@gmail.com",
+            password_digest: "password"
+            )
+
+
+Cat.create!(
             first_name: "Maximum",
             family_name: "Cross",
             title: "Captain",
@@ -9,10 +15,16 @@ Cat.create(
             skills: "batting, eating, sleeping, mousing",
             endorsements: "Many",
             owner: "Dylan Cross",
-            summary: "The best."
+            summary: "The best.",
+            user_id: 1
             )
 
- Cat.create(
+User.create!(
+            email: "garfield@gmail.com",
+            password_digest: "password"
+            )
+
+ Cat.create!(
             first_name: "Garfield",
             family_name: "Arbuckle",
             title: "n/a",
@@ -23,10 +35,16 @@ Cat.create(
             skills: "eating, sleeping, kicking Odie, despising Monday",
             endorsements: "Few",
             owner: "Jon Arbuckle",
-            summary: "The worst."
+            summary: "The worst.",
+            user_id: 2
             )
 
- Cat.create(
+ User.create!(
+             email: "felix@gmail.com",
+             password_digest: "password"
+             )
+
+ Cat.create!(
             first_name: "Felix",
             family_name: "The Cat",
             title: "The wonderful, wonderful cat.",
@@ -37,10 +55,16 @@ Cat.create(
             skills: "Tricks",
             endorsements: "Many octogenarians",
             owner: "The streets.",
-            summary: "Medium"
+            summary: "Medium",
+            user_id: 3
             )
 
- Cat.create(
+ User.create!(
+             email: "toilet@gmail.com",
+             password_digest: "password"
+             )
+
+ Cat.create!(
             first_name: "Toilet",
             family_name: "Paper",
             title: "professor",
@@ -51,10 +75,16 @@ Cat.create(
             skills: "fitting into tight spaces, not afraid of water.",
             endorsements: "Plumbers everywhere",
             owner: "chosen to remain anonymous",
-            summary: "look at me!"
+            summary: "look at me!",
+            user_id: 4
             )
 
- Cat.create(
+ User.create!(
+             email: "maddie@gmail.com",
+             password_digest: "password"
+             )
+
+ Cat.create!(
             first_name: "Maddie",
             family_name: "Tucker",
             title: "Princess, Baby Girl, Munchkin",
@@ -65,37 +95,36 @@ Cat.create(
             skills: "chewing paper, cardboard, and plastic, waking owner up every 2 hours, cuddling, strong communication skills (meow! purr!)",
             endorsements: "Everyone who’s ever met me",
             owner: "Lisa Tucker",
-            summary: "Just. That. Cute."
+            summary: "Just. That. Cute.",
+            user_id: 5
             )
 
- Following.create(
+ Following.create!(
                   follower_id: 2,
                   followee_id: 3
                   )
 
-Following.create(
+Following.create!(
                   follower_id: 4,
                   followee_id: 1
                   )
 
- Following.create(
+ Following.create!(
                   follower_id: 4,
                   followee_id: 2
                   )
 
- Following.create(
+ Following.create!(
                   follower_id: 4,
                   followee_id: 3
                   )
 
- Following.create(
+ Following.create!(
                   follower_id: 4,
                   followee_id: 5
                   )
 
- Following.create(
+ Following.create!(
                   follower_id: 5,
                   followee_id: 4
                   )
-
-Cat.find(2).user_id = 6

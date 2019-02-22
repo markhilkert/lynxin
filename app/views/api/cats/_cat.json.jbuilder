@@ -11,3 +11,12 @@ json.endorsements cat.endorsements
 json.owner cat.owner
 json.summary cat.summary
 json.profile_url cat.profile_url
+
+json.followers do
+  json.array! cat.followers.each do |follower|
+    json.id follower.id
+    json.first_name follower.first_name
+    json.family_name follower.family_name
+    json.profile_url follower.profile_url
+  end  
+end
