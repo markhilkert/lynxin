@@ -19,6 +19,7 @@ class Api::CatsController < ApplicationController
                         owner: params[:owner],
                         summary: params[:summary],
                         profile_url: params[:profile_url],
+                        profile_picture: params[:profile_picture],
                         image: params[:image]
                         )
     
