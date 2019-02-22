@@ -27,7 +27,7 @@ class Api::CatsController < ApplicationController
   end
 
   def show
-    @cat = cat.find(params[:id])
+    @cat = Cat.find(params[:id])
     render 'show.json.jbuilder'
   end
 
