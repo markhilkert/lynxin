@@ -17,7 +17,6 @@ class Api::CatsController < ApplicationController
                         skills: params[:skills],
                         endorsements: params[:endorsements],
                         owner: params[:owner],
-                        admin: params[:admin],
                         summary: params[:summary],
                         profile_url: params[:profile_url],
                         image: params[:image]
@@ -27,7 +26,7 @@ class Api::CatsController < ApplicationController
   end
 
   def show
-    @cat = cat.find(params[:id])
+    @cat = Cat.find(params[:id])
     render 'show.json.jbuilder'
   end
 
@@ -44,7 +43,6 @@ class Api::CatsController < ApplicationController
     @cat.skills = params[:skills] || @cat.skills,
     @cat.endorsements = params[:endorsements] || @cat.endorsements,
     @cat.owner = params[:owner] || @cat.owner,
-    @cat.admin = params[:admin] || @cat.admin,
     @cat.summary = params[:summary] || @cat.summary
     @cat.profile_url = params[:profile_url] || @cat.profile_url
 

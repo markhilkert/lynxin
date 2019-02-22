@@ -97,3 +97,5 @@ Following.create(
                   follower_id: 5,
                   followee_id: 4
                   )
+
+Cat.find(2).user_id = 6
