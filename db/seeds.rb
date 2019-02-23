@@ -1,6 +1,7 @@
 User.create!(
             email: "maximum@gmail.com",
-            password_digest: "password"
+            password: "password",
+            password_confirmation: "password"
             )
 
 
@@ -21,7 +22,8 @@ Cat.create!(
 
 User.create!(
             email: "garfield@gmail.com",
-            password_digest: "password"
+            password: "password",
+            password_confirmation: "password"
             )
 
  Cat.create!(
@@ -36,12 +38,14 @@ User.create!(
             endorsements: "Few",
             owner: "Jon Arbuckle",
             summary: "The worst.",
+            profile_url: "https://upload.wikimedia.org/wikipedia/en/thumb/b/bc/Garfield_the_Cat.svg/1200px-Garfield_the_Cat.svg.png",
             user_id: 2
             )
 
  User.create!(
              email: "felix@gmail.com",
-             password_digest: "password"
+             password: "password",
+             password_confirmation: "password"
              )
 
  Cat.create!(
@@ -56,12 +60,14 @@ User.create!(
             endorsements: "Many octogenarians",
             owner: "The streets.",
             summary: "Medium",
+            profile_url: "http://silentfilm.blob.core.windows.net/assets/Standard/PAGE/1368/large/this_is_theFelixCatBook_original.jpg",
             user_id: 3
             )
 
  User.create!(
              email: "toilet@gmail.com",
-             password_digest: "password"
+             password: "password",
+             password_confirmation: "password"
              )
 
  Cat.create!(
@@ -81,7 +87,8 @@ User.create!(
 
  User.create!(
              email: "maddie@gmail.com",
-             password_digest: "password"
+             password: "password",
+             password_confirmation: "password"
              )
 
  Cat.create!(

@@ -7,7 +7,7 @@ class Cat < ApplicationRecord
 
   has_one_attached :image
 
-  belongs_to :user
+  belongs_to :user, optional: true
   validates :user_id, uniqueness: true
 
   has_one_attached :profile_picture
