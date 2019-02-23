@@ -1,6 +1,7 @@
 User.create!(
             email: "maximum@gmail.com",
-            password_digest: "password"
+            password: "password",
+            password_confirmation: "password"
             )
 
 
@@ -21,7 +22,8 @@ Cat.create!(
 
 User.create!(
             email: "garfield@gmail.com",
-            password_digest: "password"
+            password: "password",
+            password_confirmation: "password"
             )
 
  Cat.create!(
@@ -42,7 +44,8 @@ User.create!(
 
  User.create!(
              email: "felix@gmail.com",
-             password_digest: "password"
+             password: "password",
+             password_confirmation: "password"
              )
 
  Cat.create!(
@@ -63,7 +66,8 @@ User.create!(
 
  User.create!(
              email: "toilet@gmail.com",
-             password_digest: "password"
+             password: "password",
+             password_confirmation: "password"
              )
 
  Cat.create!(
@@ -83,7 +87,8 @@ User.create!(
 
  User.create!(
              email: "maddie@gmail.com",
-             password_digest: "password"
+             password: "password",
+             password_confirmation: "password"
              )
 
  Cat.create!(
@@ -101,12 +106,33 @@ User.create!(
             user_id: 5
             )
 
+ User.create!(
+             email: "pusheen@gmail.com",
+             password: "password",
+             password_confirmation: "password"
+             )
+
+ Cat.create!(
+            first_name: "Pusheen", 
+            family_name: "Bui",
+            title: "Baker",
+            education: "Alleycat School for Gifted Felines",
+            experience: "the internet",
+            location: "Any Browser, USA",
+            owner: "Phuoc Bui",
+            summary: "Makin' biscuits, takin' names", 
+            profile_url: "https://media.giphy.com/media/13vSD7ajIJwgb6/giphy.gif", 
+            accomplishments: "Taking the FaceBook Messenger users' hearts by storm", 
+            endorsements: "N/A", 
+            skills: "baking, sleeping, eating chocolate, bein' cute"
+            )
+
  Following.create!(
                   follower_id: 2,
                   followee_id: 3
                   )
 
-Following.create!(
+ Following.create!(
                   follower_id: 4,
                   followee_id: 1
                   )
