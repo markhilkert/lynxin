@@ -106,12 +106,55 @@ User.create!(
             user_id: 5
             )
 
+ User.create!(
+             email: "pusheen@gmail.com",
+             password: "password",
+             password_confirmation: "password"
+             )
+
+ Cat.create!(
+            first_name: "Pusheen", 
+            family_name: "Bui",
+            title: "Baker",
+            education: "Alleycat School for Gifted Felines",
+            experience: "the internet",
+            location: "Any Browser, USA",
+            owner: "Phuoc Bui",
+            summary: "Makin' biscuits, takin' names", 
+            profile_url: "https://media.giphy.com/media/13vSD7ajIJwgb6/giphy.gif", 
+            accomplishments: "Taking the FaceBook Messenger users' hearts by storm", 
+            endorsements: "N/A", 
+            skills: "baking, sleeping, eating chocolate, bein' cute"
+            )
+
+ User.create!(
+             email: "hello@gmail.com",
+             password: "password",
+             password_confirmation: "password"
+             )
+
+ Cat.create!(
+            first_name: "Hello", 
+            family_name: "Kitty",
+            title: "Media Conglomerate",
+            education: "Sanrio School for Girls",
+            experience: "N/A",
+            location: "SanrioLand, Japan",
+            owner: "Yuko Shimizu",
+            summary: "Running a $6 billion dollar empire", 
+            profile_url: " https://pmcdeadline2.files.wordpress.com/2015/07/imgres.png?w=266",
+            accomplishments: "Started from the bottom now I'm here", 
+            endorsements: "Literally everything from everyone", 
+            skills: "Business, Networking, Marketing, Elimating Foes with Extreme Prejudice "
+            )
+
+
  Following.create!(
                   follower_id: 2,
                   followee_id: 3
                   )
 
-Following.create!(
+ Following.create!(
                   follower_id: 4,
                   followee_id: 1
                   )

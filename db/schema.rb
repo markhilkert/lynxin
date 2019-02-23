@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2019_02_22_211217) do
+ActiveRecord::Schema.define(version: 2019_02_23_233419) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -45,7 +45,7 @@ ActiveRecord::Schema.define(version: 2019_02_22_211217) do
     t.string "location"
     t.string "owner"
     t.text "summary"
-    t.string "profile_url"
+    t.string "profile_url", default: "https://sweetdreamsquiltstudio.com/images/sitting%20cat%20outline%20001.jpg"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.text "accomplishments"
