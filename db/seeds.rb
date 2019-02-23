@@ -1,6 +1,7 @@
 User.create!(
             email: "maximum@gmail.com",
-            password_digest: "password"
+            password: "password",
+            password_confirmation: "password"
             )
 
 
@@ -21,7 +22,8 @@ Cat.create!(
 
 User.create!(
             email: "garfield@gmail.com",
-            password_digest: "password"
+            password: "password",
+            password_confirmation: "password"
             )
 
  Cat.create!(
@@ -42,7 +44,8 @@ User.create!(
 
  User.create!(
              email: "felix@gmail.com",
-             password_digest: "password"
+             password: "password",
+             password_confirmation: "password"
              )
 
  Cat.create!(
@@ -63,7 +66,8 @@ User.create!(
 
  User.create!(
              email: "toilet@gmail.com",
-             password_digest: "password"
+             password: "password",
+             password_confirmation: "password"
              )
 
  Cat.create!(
@@ -83,7 +87,8 @@ User.create!(
 
  User.create!(
              email: "maddie@gmail.com",
-             password_digest: "password"
+             password: "password",
+             password_confirmation: "password"
              )
 
  Cat.create!(
