@@ -135,3 +135,9 @@ Following.create!(
                   follower_id: 5,
                   followee_id: 4
                   )
+
+ User.create!(
+              email: "mark@gmail.com",
+              password: "password",
+              password_confirmation: "password"
+              )
