@@ -11,6 +11,7 @@ json.endorsements cat.endorsements
 json.owner cat.owner
 json.summary cat.summary
 json.profile_url cat.profile_url
+json.user_id cat.user_id
 
 json.followers do
   json.array! cat.followers.each do |follower|

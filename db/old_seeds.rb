@@ -36,6 +36,7 @@ User.create!(
             endorsements: "Few",
             owner: "Jon Arbuckle",
             summary: "The worst.",
+            profile_url: "https://upload.wikimedia.org/wikipedia/en/thumb/b/bc/Garfield_the_Cat.svg/1200px-Garfield_the_Cat.svg.png",
             user_id: 2
             )
 
@@ -56,6 +57,7 @@ User.create!(
             endorsements: "Many octogenarians",
             owner: "The streets.",
             summary: "Medium",
+            profile_url: "http://silentfilm.blob.core.windows.net/assets/Standard/PAGE/1368/large/this_is_theFelixCatBook_original.jpg",
             user_id: 3
             )
 
