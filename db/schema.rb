@@ -45,7 +45,7 @@ ActiveRecord::Schema.define(version: 2019_02_23_233419) do
     t.string "location"
     t.string "owner"
     t.text "summary"
-    t.string "profile_url", default: "https://sweetdreamsquiltstudio.com/images/sitting%20cat%20outline%20001.jpg"
+    t.string "profile_url", default: "https://us.123rf.com/450wm/miceking/miceking1506/miceking150600428/40805956-stock-vector-cat-silhouette-moon.jpg?ver=6"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.text "accomplishments"
