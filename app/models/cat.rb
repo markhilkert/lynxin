@@ -9,7 +9,4 @@ class Cat < ApplicationRecord
 
   belongs_to :user, optional: true
   validates :user_id, uniqueness: true
-
-  has_one_attached :profile_picture
-
 end

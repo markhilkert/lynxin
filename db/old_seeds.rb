@@ -4,7 +4,6 @@ User.create!(
             password_confirmation: "password"
             )
 
-
 Cat.create!(
             first_name: "Maximum",
             family_name: "Cross",
@@ -124,7 +123,8 @@ User.create!(
             profile_url: "https://media.giphy.com/media/13vSD7ajIJwgb6/giphy.gif", 
             accomplishments: "Taking the FaceBook Messenger users' hearts by storm", 
             endorsements: "N/A", 
-            skills: "baking, sleeping, eating chocolate, bein' cute"
+            skills: "baking, sleeping, eating chocolate, bein' cute",
+            user_id: 6
             )
 
  User.create!(
@@ -145,7 +145,52 @@ User.create!(
             profile_url: " https://pmcdeadline2.files.wordpress.com/2015/07/imgres.png?w=266",
             accomplishments: "Started from the bottom now I'm here", 
             endorsements: "Literally everything from everyone", 
-            skills: "Business, Networking, Marketing, Elimating Foes with Extreme Prejudice "
+            skills: "Business, Networking, Marketing, Dispatching Competitors with Extreme Prejudice",
+            user_id: 7
+            )
+
+ User.create!(
+             email: "catbus@gmail.com",
+             password: "password",
+             password_confirmation: "password"
+             )
+
+ Cat.create!(
+            first_name: "Cat", 
+            family_name: "Bus",
+            title: "Bus Driver",
+            education: "Miyazaki Academy of Animation",
+            experience: "N/A",
+            location: "Ghibli, Japan",
+            owner: "Hayao Miyazaki",
+            summary: "I transport small children in my body.", 
+            profile_url: "https://media.giphy.com/media/7RzYWqGTohvos/giphy.gif",
+            accomplishments: "How did this happen?", 
+            endorsements: "safety", 
+            skills: "transportation",
+            user_id: 8
+            )
+
+ User.create!(
+             email: "catwoman@gmail.com",
+             password: "password",
+             password_confirmation: "password"
+             )
+
+ Cat.create!(
+            first_name: "Catwoman", 
+            family_name: "N/A",
+            title: "Cat Burglar",
+            education: "Crazy Cat Lady College",
+            experience: "N/A",
+            location: "Gotham City",
+            owner: "Michelle Pfeiffer",
+            summary: "I am a real, live cat.", 
+            profile_url: "https://media.giphy.com/media/fyMWf5BQ7eIW4/giphy.gif",
+            accomplishments: "I think I hooked up with Batman probably at one point in time.", 
+            endorsements: "N/A", 
+            skills: "sneaking, whips, thievery",
+            user_id: 9
             )
 
 
