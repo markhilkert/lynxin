@@ -22,3 +22,12 @@ json.followers do
     json.profile_url follower.profile_url
   end  
 end
+
+json.followees do
+  json.array! cat.followees.each do |followee|
+    json.id followee.id
+    json.first_name followee.first_name
+    json.family_name followee.family_name
+    json.profile_url followee.profile_url
+  end  
+end
