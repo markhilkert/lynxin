@@ -17,7 +17,8 @@ Cat.create!(
             endorsements: "Many",
             owner: "Dylan Cross",
             summary: "The best.",
-            user_id: 1
+            user_id: 1,
+            profile_url: "https://files.slack.com/files-pri/TEEPVPS6L-FGEQ6LVFT/image_from_ios.jpg"
             )
 
 User.create!(
