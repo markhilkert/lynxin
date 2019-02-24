@@ -82,6 +82,7 @@ User.create!(
             endorsements: "Plumbers everywhere",
             owner: "chosen to remain anonymous",
             summary: "look at me!",
+            profile_url: "https://files.slack.com/files-pri/TEEPVPS6L-FGC66KYQ4/image_from_ios.jpg",
             user_id: 4
             )
 
@@ -103,6 +104,7 @@ User.create!(
             endorsements: "Everyone who’s ever met me",
             owner: "Lisa Tucker",
             summary: "Just. That. Cute.",
+            profile_url: "https://files.slack.com/files-pri/TEEPVPS6L-FGC7KRP6W/image_from_ios.jpg",
             user_id: 5
             )
 

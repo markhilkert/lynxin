@@ -12,5 +12,7 @@ Rails.application.routes.draw do
     # post '/sessions' => 'sessions#create'
     patch "/cats/:id" => 'cats#update'
     delete "/cats/:id" => 'cats#destroy'
+
+    post "/followings" => 'followings#create'
   end
 end
