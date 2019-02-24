@@ -4,7 +4,6 @@ User.create!(
             password_confirmation: "password"
             )
 
-
 Cat.create!(
             first_name: "Maximum",
             family_name: "Cross",
@@ -124,7 +123,8 @@ User.create!(
             profile_url: "https://media.giphy.com/media/13vSD7ajIJwgb6/giphy.gif", 
             accomplishments: "Taking the FaceBook Messenger users' hearts by storm", 
             endorsements: "N/A", 
-            skills: "baking, sleeping, eating chocolate, bein' cute"
+            skills: "baking, sleeping, eating chocolate, bein' cute",
+            user_id: 6
             )
 
  User.create!(
@@ -145,7 +145,8 @@ User.create!(
             profile_url: " https://pmcdeadline2.files.wordpress.com/2015/07/imgres.png?w=266",
             accomplishments: "Started from the bottom now I'm here", 
             endorsements: "Literally everything from everyone", 
-            skills: "Business, Networking, Marketing, Elimating Foes with Extreme Prejudice "
+            skills: "Business, Networking, Marketing, Dispatching Competitors with Extreme Prejudice",
+            user_id: 7
             )
 
 
