@@ -7,21 +7,20 @@ class Api::CatsController < ApplicationController
 
   def create
     @cat = Cat.new(
-                        first_name: params[:first_name],
-                        family_name: params[:family_name],
-                        title: params[:title],
-                        education: params[:education],
-                        experience: params[:experience],
-                        location: params[:location],
-                        accomplishments: params[:accomplishments],
-                        skills: params[:skills],
-                        endorsements: params[:endorsements],
-                        owner: params[:owner],
-                        summary: params[:summary],
-                        profile_url: params[:profile_url],
-                        profile_picture: params[:profile_picture],
-                        image: params[:image]
-                        )
+                  first_name: params[:first_name],
+                  family_name: params[:family_name],
+                  title: params[:title],
+                  education: params[:education],
+                  experience: params[:experience],
+                  location: params[:location],
+                  accomplishments: params[:accomplishments],
+                  skills: params[:skills],
+                  endorsements: params[:endorsements],
+                  owner: params[:owner],
+                  summary: params[:summary],
+                  profile_url: params[:profile_url],
+                  image: params[:image]
+                  )
     
     if @cat.save
       render 'show.json.jbuilder'
