@@ -47,7 +47,7 @@ class Api::CatsController < ApplicationController
     @cat.skills = params[:skills] || @cat.skills,
     @cat.endorsements = params[:endorsements] || @cat.endorsements,
     @cat.owner = params[:owner] || @cat.owner,
-    @cat.summary = params[:summary] || @cat.summary
+    @cat.summary = params[:summary] || @cat.summary,
     @cat.profile_url = params[:profile_url] || @cat.profile_url
 
     if @cat.save
