@@ -82,7 +82,7 @@ User.create!(
             endorsements: "Plumbers everywhere",
             owner: "chosen to remain anonymous",
             summary: "look at me!",
-            profile_url: "https://files.slack.com/files-pri/TEEPVPS6L-FGC66KYQ4/image_from_ios.jpg",
+            profile_url: "https://i.redd.it/7ss8fb32ewy01.jpg",
             user_id: 4
             )
 
