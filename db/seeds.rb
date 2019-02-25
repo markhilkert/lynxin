@@ -81,6 +81,7 @@ User.create!(
             endorsements: "Plumbers everywhere",
             owner: "chosen to remain anonymous",
             summary: "look at me!",
+            profile_url: "https://i.redd.it/7ss8fb32ewy01.jpg",
             user_id: 4
             )
 
