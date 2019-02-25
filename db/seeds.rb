@@ -104,7 +104,7 @@ User.create!(
             endorsements: "Everyone who’s ever met me",
             owner: "Lisa Tucker",
             summary: "Just. That. Cute.",
-            profile_url: "https://files.slack.com/files-pri/TEEPVPS6L-FGC7KRP6W/image_from_ios.jpg",
+            profile_url: "https://i.imgur.com/l3xfj9z.jpg?1",
             user_id: 5
             )
 
