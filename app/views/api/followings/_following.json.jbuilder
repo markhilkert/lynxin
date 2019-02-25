@@ -1,3 +1,3 @@
 json.id following.id
-json.follower_id cat.follower_id
-json.followee_id cat.followee_id
+json.follower_id following.follower_id
+json.followee_id following.followee_id
