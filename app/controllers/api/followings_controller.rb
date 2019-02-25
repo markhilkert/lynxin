@@ -4,7 +4,6 @@ class Api::FollowingsController < ApplicationController
                         followee_id: params[:followee_id],
                         follower_id: current_user.id
                         )
-    
     if @following.save
       render 'show.json.jbuilder'
     else

@@ -19,7 +19,8 @@ class Api::CatsController < ApplicationController
                   owner: params[:owner],
                   summary: params[:summary],
                   profile_url: params[:profile_url],
-                  image: params[:image]
+                  image: params[:image],
+                  user_id: current_user.id
                   )
     
     if @cat.save
